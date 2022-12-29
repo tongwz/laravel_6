@@ -1,0 +1,19 @@
+{
+    "name": "tongwz/composer-test",
+    "description": "this is my test composer package tongwz",
+    "type": "1",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Tongwz\\Composers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tongwz"
+        }
+    ]
+}
