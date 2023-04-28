@@ -21,7 +21,7 @@ Route::get('/welcome', function () {
 });
 /**
  * web作为分组的前置url 后面加入中间件
- * namespace 作为控制器前置文件夹存在
+ * namespace 作为控制器前置文件夹存在 123
  */
 Route::group(["prefix" => "web", "namespace" => "Auth"], function() {
     /** login页面 */
